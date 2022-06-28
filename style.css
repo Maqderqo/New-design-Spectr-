@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none! important; 
+    text-decoration: none! important;
+    font-family: "Euclid";
+
+}
+
+@font-face {
+    font-family: "Euclid";
+    src: url(font/Euclid\ Circular\ A\ Regular.ttf);
+}
+
+/* #region NAVBAR */
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 90px;
+    background-color: #0069CA;
+
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 20px 40px;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+/* #endregion */
+
+/* #region SLIDER */
+
+.section1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 480px;
+    background-color: #0069CA;
+}
+
+.section-part1 {
+    position: absolute;
+    width: 40%;
+    font-size: 20px;
+    margin-left: 100px;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+.spectr {
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rectangles3 {
+    position: absolute;
+    right: 100px;
+}
+
+
+.pics {
+    width: 100%;
+    height: auto;
+}
+
+/* #endregion */
+
+/* #region section2 Works  */
+
+.section-works {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.grid_works {
+    display: flex;
+width: 80%;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+
+.w {
+    position: relative;
+    width: 400px; 
+    height: 200px;
+    border-radius: 20px;
+    margin: 100px;
+    font-size: 35px;
+    margin-top: 30px;
+    box-shadow: 0px 15px 28px rgba(11, 10, 10, 0.15);
+border-radius: 16px;
+
+
+}
+
+
+
+.workp {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.myButton {
+    position: absolute;
+    border-radius: 60px;
+    cursor: pointer;
+    color: #821919;
+    width: 55px;
+    right: 15px;
+    top: 50px;
+    border: 0;
+    text-align: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 12px 26px rgba(9, 8, 8, 0.15);
+
+}
+
+.circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    left: 20px;
+    top: 20px;
+text-align: center;
+}
+
+.purple-circle{
+    background-color: #CEDAFF;
+}
+
+.blue-circle{
+    background-color: #F0F9FF;
+}
+
+.green-circle{
+    background-color: #C2F5E4;
+}
+
+.red-circle{
+    background-color: #FFD0DD;
+}
+
+/* #endregion */
+
+/* #region section3 services */
+
+.section-services{
+    background: rgba(239, 243, 255, 1);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+
+
+.all-services-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.sevice-box{
+    display:inline-flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 70px;
+    width: 500px;
+    height: 250px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0px 15px 28px rgba(11, 10, 10, 0.15);
+    background-color: white;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 56px;
+}
+
+
+
+/* #endregion */
+
+/* #region section4 works */
+
+
+.section4{
+    width: 100%;
+    height: auto;
+}
+
+.about-text{
+    width: 50%;
+    height: 550px;
+}
+.about-pictures{
+    width: 50%;
+}
+
+/* #endregion */
